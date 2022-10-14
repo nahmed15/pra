@@ -1,62 +1,109 @@
-header {
-  background-color: blue;
-  position: relative;
+/* stylelint-enable */
+* {
+  box-sizing: border-box;
+}
+ol, ul{
+  list-style: none;
+  
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+section a {
+    color: #26c99f;
+}
+section p {
+    float: none!important;
+}
+section h1 {
+    background-color: #cf1e1e;
+    color: #f8d4bf;
+}
+section h2 {
+    background-color: #000000;;
+    color: #fdcaac;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+section h3 {
+    background-color: #934949;
+    color: #c19b85;
+}
+/* House styles below */
+@font-face {
+    font-family: "American Typewriter";
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dadada;
+    font-size: 1em;
+    font-weight: 500;
+    /* font-size: 1.5rem; */
 }
 
-#main-navbar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  display: inline-block
+header{
+  width: 100%;
 }
-
-#main-navbar ul li {
+header nav ul{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+}
+header nav ul li{
+  margin-bottom: 5px;
+  color: #77f;
+  width: max-content;
+}
+header nav ul li:nth-child(1){
   float: left;
 }
-
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
+header nav ul li:nth-child(2){
+  float: right;
 }
-
-#main-navbar ul li a:hover {
-  background-color: #000;
-  text-decoration: underline overline;
+header nav ul li:nth-child(3){
+  float: right;
 }
-
-#navbar-container {
-  width: 100%;
-  position: relative;
-  text-align: center;
+h1, h2, h3, h4, h5{
+  font-weight: bold;
+  padding-bottom: 1px;
 }
-
-#sidebar-container ul {
-  padding: 0;
+h1{
+  font-size: 1.602em;
+  line-height:2em;
 }
-
-#sidebar-container ul li {
-  list-style-type: none;
+h2{
+  font-size: 1.424em;
+  line-height:1.5em;
 }
-
-#sidebar-container ul li a {
-  display: block;
-  padding: 15px 0;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
+h3{
+  font-size: 1.266em;
+  line-height:1.3em;
 }
-
-#sidebar-container ul li a:hover {
-  background-color: #000;
+h4{
+  font-size: 1.125em;
 }
-
-#sidebar {
-  background-color: red;
-  position: fixed;
-  right: 0;
-  width: 20%;
-  height: 100%;
+li{
+  padding-left: 10px;
 }
+p ~ p{
+  padding-top: 5px;
+}
+nav{
+  height: 30px;
+  margin-top: 10px;
+}
+section{
+  padding: 10px 0;
+}
+section section{
+  padding: 0 10px;
+}
+main{
+  padding: 0 10px;
