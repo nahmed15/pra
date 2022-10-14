@@ -7,7 +7,6 @@ ol, ul{
   
 }
 a{
-    text-decoration: none;
     color: inherit;
 }
 section a {
@@ -21,16 +20,16 @@ section h1 {
     color: #f8d4bf;
 }
 section h2 {
-    background-color: #000000;;
-    color: #fdcaac;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    background-color: #00FFFF;
+    color: #000000;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 section h3 {
-    background-color: #934949;
-    color: #c19b85;
+    background-color: #98FB98;
+    color: #000000;
 }
 /* House styles below */
 @font-face {
@@ -41,7 +40,7 @@ section h3 {
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #dadada;
+    background-color: #CBC3E3;
     font-size: 1em;
     font-weight: 500;
     /* font-size: 1.5rem; */
@@ -58,7 +57,7 @@ header nav ul{
 }
 header nav ul li{
   margin-bottom: 5px;
-  color: #77f;
+  color: #FF0000;
   width: max-content;
 }
 header nav ul li:nth-child(1){
@@ -72,15 +71,11 @@ header nav ul li:nth-child(3){
 }
 h1, h2, h3, h4, h5{
   font-weight: bold;
-  padding-bottom: 1px;
 }
 h1{
-  font-size: 1.602em;
-  line-height:2em;
+  font-size: 3em;
+  line-height:2.5em;
 }
-h2{
-  font-size: 1.424em;
-  line-height:1.5em;
 }
 h3{
   font-size: 1.266em;
