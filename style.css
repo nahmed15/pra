@@ -42,11 +42,19 @@ section h3 {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #dadada;
-    font-size: 1em;
+    line-height: 1.5;
+	  color:#262626;
+    font-size: 2em;
     font-weight: 500;
     /* font-size: 1.5rem; */
 }
-
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size:2em;
+	line-height: 1.5;
+	color:red;
+	
+}
 header{
   width: 100%;
 }
