@@ -21,6 +21,7 @@ section h1 {
 }
 section h2 {
     background-color: #00FFFF;
+    font-size: 2em;
     color: #000000;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
