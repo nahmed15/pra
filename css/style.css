@@ -87,6 +87,7 @@ h4{
 }
 li{
   padding-left: 10px;
+  font-weight: bold;
 }
 p ~ p{
   padding-top: 5px;
