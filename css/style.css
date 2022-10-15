@@ -91,6 +91,14 @@ li{
 p ~ p{
   padding-top: 5px;
 }
+p {
+    display: block;
+    margin-block-start: 1em;
+    font-weight: bold;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 nav{
   height: 30px;
   margin-top: 10px;
